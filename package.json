@@ -40,6 +40,9 @@
     "cursor",
     "windsurf"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "license": "MIT",
   "author": "West Vegh <west@veghlabs.com>",
   "repository": {
