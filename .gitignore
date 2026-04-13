@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Environment
+.env
+.env.local
+.env.*
+
+# OS
+.DS_Store
+
+# Spec pipeline (generated artifacts)
+.spec-pipeline/
+
+# Claude Code
+.claude/
+
+# IDE
+.vscode/
+.idea/
