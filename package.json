@@ -1,0 +1,50 @@
+{
+  "name": "@exerciseapi/mcp-server",
+  "version": "1.0.0",
+  "description": "Official MCP server for exerciseapi.dev — give your AI coding agent direct access to 2,198+ vetted exercises across 12 categories.",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "exerciseapi-mcp": "dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "tsup",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "lint": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "zod": "^3.25.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.6.0",
+    "tsup": "^8.0.0",
+    "typescript": "^5.7.0",
+    "vitest": "^3.0.0"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "exercise",
+    "fitness",
+    "workout",
+    "api",
+    "claude",
+    "cursor",
+    "windsurf"
+  ],
+  "license": "MIT",
+  "author": "West Vegh <west@veghlabs.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/westvegh/exerciseapi-mcp-server.git"
+  },
+  "homepage": "https://exerciseapi.dev/docs/mcp"
+}
