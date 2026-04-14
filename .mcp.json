@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "exerciseapi": {
+      "command": "npx",
+      "args": ["-y", "@exerciseapi/mcp-server"],
+      "env": {
+        "EXERCISEAPI_KEY": "exlib_your_key_here"
+      }
+    }
+  }
+}
