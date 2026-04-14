@@ -15,6 +15,9 @@ dist/
 # Spec pipeline (generated artifacts)
 .spec-pipeline/
 
+# Internal specs
+docs/
+
 # Claude Code
 .claude/
 
