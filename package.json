@@ -1,6 +1,7 @@
 {
   "name": "@exerciseapi/mcp-server",
-  "version": "1.0.0",
+  "version": "1.0.1",
+  "mcpName": "io.github.westvegh/exerciseapi",
   "description": "Official MCP server for exerciseapi.dev — give your AI coding agent direct access to 2,198+ vetted exercises across 12 categories.",
   "type": "module",
   "main": "dist/index.js",

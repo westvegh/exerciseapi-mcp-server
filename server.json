@@ -1,0 +1,29 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.westvegh/exerciseapi",
+  "description": "Give your AI coding agent direct access to 2,198+ exercises via exerciseapi.dev",
+  "repository": {
+    "url": "https://github.com/westvegh/exerciseapi-mcp-server",
+    "source": "github"
+  },
+  "version": "1.0.1",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "@exerciseapi/mcp-server",
+      "version": "1.0.1",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "description": "Your API key from exerciseapi.dev/dashboard",
+          "isRequired": true,
+          "format": "string",
+          "isSecret": true,
+          "name": "EXERCISEAPI_KEY"
+        }
+      ]
+    }
+  ]
+}
